@@ -1,0 +1,106 @@
+h1 {
+	font-family: verdana;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-bottom: 45px;
+}
+
+body {
+	background: #c2e6fd;
+}
+
+.tabla2 {
+border: 1px solid black;
+border-collapse: collapse;
+margin-top: 100px;
+
+}
+.tabla3{
+	border: 1px solid black;
+border-collapse: collapse;
+}
+
+tr, td {
+	background: white;
+}
+
+.img1 {
+	height: 200px;
+	width: 200px;
+
+}
+.img2 {
+	height: 200px;
+	width: 180px;
+	
+}
+.img3 {
+	height: 170px;
+	width: 175px;
+	
+}
+.img4 {
+	height: 280px;
+	width: 150px;
+	
+}
+.img5 {
+	height: 280px;
+	width: 150px;
+	
+}
+.img6 {
+	height: 180px;
+	width: 240px;
+	margin-left: -20px;
+	margin-right: -20px;
+	
+}
+.img7 {
+	height: 200px;
+	width: 200px;
+	
+}
+.img8 {
+	height: 200px;
+	width: 180px;
+	
+}
+.img9 {
+	height: 200px;
+	width: 140px;
+	padding-left: 17px;
+	padding-right: 17px;
+	
+}
+.img10 {
+	height: 200px;
+	width: 120px;
+	padding-left: 17px;
+	padding-right: 17px;
+	
+}
+.img11 {
+	height: 200px;
+	width: 120px;
+	padding-left: 17px;
+	padding-right: 17px;
+	
+}
+.img12 {
+	height: 220px;
+	width: 160px;
+	padding-left: 17px;
+	padding-right: 17px;
+	
+}
+table, .tabla1 {
+	margin-bottom: 40px;
+}
+.logo {
+	height: 250px;
+	width: 240px;
+	margin-left: 1600px;
+	margin-bottom: -195px;
+	margin-top: -40px;
+}

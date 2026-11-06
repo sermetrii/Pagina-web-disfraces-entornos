@@ -1,0 +1,82 @@
+html {
+	background: #c2e6fd;
+	}
+	
+
+body {
+	margin-top: 140px;
+	margin-left: 600px;
+	background: #fffec2;
+	margin-right: 810px;
+	margin-bottom: 500px;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 34px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+h2, h4 {
+	font-family: verdana;
+}
+h2{
+	padding-bottom: 14px;
+}
+button {
+	background: #fdf5e6;
+	padding: 1.5%;
+	border-radius: 5px;
+	padding:9px;
+	margin-top: 10px;
+}
+.nombre {
+	margin-left: 89px;
+}
+.email {
+	margin-left: 103px;
+}
+.tel {
+	margin-left: 10px;
+}
+
+h4 {
+	margin-top: 5%;
+}
+h2 {
+	margin-bottom: 5%;
+}
+.carrito {
+	margin-left:12px;
+}
+.visa {
+	height:15px;
+	width:50px;
+}
+.mastercard {
+	height:27px;
+	width:35px;
+	margin-bottom:-7px;
+}
+.amex {
+	height:35px;
+	width:50px;
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-bottom:-11px;
+}
+@media (max-width: 600px) {
+    body {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .nombre,
+    .email {
+        margin-left: 0;
+    }
+
+    input {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}

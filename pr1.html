@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="pr1.css">
+	</head>
+		<body>
+		<h2>Proceso de pago</h2>
+		<form action="servicio.php" method="get">
+		
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre" id="nonmbre" size="30" maxlength="20" class="nombre" placeholder="Introduce tu nombre"><br><br>
+			
+			<label for="nombre">Email:</label>
+			<input type="text" name="nombre" id="nonmbre" size="30" maxlength="20" class="email" placeholder="Introduce tu email"><br><br>
+			
+			<label for="nombre">Numero de Teléfono:</label>
+			<input type="text" name="nombre" id="nonmbre" size="30" maxlength="20" class="tel" placeholder="Telefono"><br><br>
+			
+			<p><h4>Detalles de pago</h4></p>
+			<p>Tipo de tarjeta:</p>
+			<input type="radio" name="Card type" id="VISA"><img src="visa.png" class="visa">
+			<label for="VISA">VISA</label>
+			
+			<input type="radio" name="Card type" id="AmEx"><img src="amex.png" class="amex">
+			<label for="AmEx">AmEx</label>
+			
+			<input type="radio" name="Card type" id="Mastercard"><img src="mastercard.png" class="mastercard">
+			<label for="Mastercard">Mastercard</label><br>
+		</form>
+		<br><button tipe="button">Pagar</button> <button tipe="button" class="carrito">Añadir al carrito</button>
+	</body>
+</html>
